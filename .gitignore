@@ -1,0 +1,27 @@
+# Environments
+.pipeline_venv/
+__pycache__/
+*.pyc
+
+# Models (see models/README.md)
+models/*
+!models/README.md
+engine/models/
+
+# Local data, credentials, media
+Pipeline_Data/
+Backups/
+Releases/
+Drop Clips Here/
+settings.json
+*token*.json
+*client_secret*.json
+*.mp4
+*.mov
+*.mkv
+*.db
+
+# Secrets and backups
+.env
+*.bak
+*.backup.py
